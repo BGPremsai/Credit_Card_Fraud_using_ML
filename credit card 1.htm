@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Credit Card</title>
+    <style>
+      h1 {
+        text-align: left;
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <img src="https://th.bing.com/th/id/OIP.PfXARiZ4NCEEHhKziYG1GgHaHa?pid=ImgDet&rs=1" alt="Dinosaur" style="witdth:68px;height:68px;" />    
+    <h1>Credit Card</h1>
+    <form>
+      <label for="name-input">Name:</label><br><br>
+      <input type="text" id="name-input" name="name" minlength="5" maxlength="24" pattern="4443{d/12}" required><br><br>
+
+      <label for="dob-input">EXP DATE:</label><br><br>
+      <input type="date" id="dob-input" name="dob" required><br><br> 
+
+      <label for="cc-input">Credit Card Number:</label><br><br>
+      <input type="text" id="cc-input" name="cc" minlength="5" maxlength="12" required><br><br>
+
+      <label for="security-code-input">CVV:</label><br><br>
+      <input type="number" id="security-code-input" name="security-code" minlength="3" maxlength="3" required><br><br>
+
+      <button type="submit">Submit</button><br><br>
+    </form>
+  </body>
+</html>
